@@ -36,6 +36,12 @@ nav ul li a {
 .slider {
     position: relative;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%; /* Slider genişliği ekranın %95'ini kapsar */
+    max-width: 1200px; /* Maksimum genişlik */
+    margin: 0 auto; /* Ortalanmış */
 }
 
 .slides {
@@ -46,11 +52,15 @@ nav ul li a {
 .slide {
     min-width: 100%;
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 .slide img {
-    width: 100%;
-    height: auto;
+    width: 100%; /* Fotoğrafı slider genişliğine tam oturt */
+    height: 500px; /* Yüksekliği 500px olarak belirledik */
+    object-fit: cover; /* Resmi kapsayıcı alanın boyutuna göre kes */
+    border-radius: 10px; /* Hafif köşe yuvarlatma */
 }
 
 .caption {
