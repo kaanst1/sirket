@@ -22,7 +22,7 @@ header {
 }
 
 #logo {
-    width: 50px; /* Logonun genişliği */
+    width: 10px; /* Logonun genişliği */
     height: auto; /* Orantıyı korumak için */
     margin-right: 10px; /* Logo ile metin arasında boşluk */
 }
